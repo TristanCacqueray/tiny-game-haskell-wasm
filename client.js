@@ -10,7 +10,7 @@ const term = new Terminal({
     convertEol: true,
 });
 term.open(document.getElementById('term'));
-term.resize(80,40)
+term.resize(80,50)
 
 class XTermStdio extends Fd {
     constructor(term) {

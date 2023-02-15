@@ -1,6 +1,6 @@
 # tiny-game-haskell-wasm
 
-A WIP proof of concept to run [tiny-haskell-hs](https://github.com/haskell-game/tiny-games-hs) in the browser.
+A WIP proof of concept to run [tiny-game-hs](https://github.com/haskell-game/tiny-games-hs) in the browser.
 
 ## Usage
 
@@ -24,7 +24,7 @@ $ (cd dist; python3 -m http.server)
 $ firefox http://localhost:8000
 ```
 
-## Limitation
+## Limitations
 
 - stdin does not work
 - wasi.js `poll_oneoff` needs to be patched to replace `throw "async io not supported"` with `return 1`.

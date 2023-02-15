@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "bundle": "esbuild ./client.js --bundle --sourcemap --outfile=./dist/client.js --format=esm",
+    "bundle": "esbuild ./client.js --bundle --sourcemap --outfile=./dist/client.js --format=esm; esbuild node_modules/xterm/css/xterm.css --outfile=./dist/xterm.css --minify",
     "wasm": "rm *.hi *.o dist/*.wasm; wasm32-wasi-ghc tiny-brot.hs -o dist/tiny-brot.wasm"
   },
   "dependencies": {

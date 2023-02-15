@@ -7045,7 +7045,7 @@ var term = new import_xterm.Terminal({
   convertEol: true
 });
 term.open(document.getElementById("term"));
-term.resize(80, 40);
+term.resize(80, 50);
 var XTermStdio = class extends Fd {
   constructor(term2) {
     super();

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "bundle": "esbuild ./client.js --bundle --sourcemap --outfile=./dist/client.js --format=esm",
+    "wasm": "rm *.hi *.o dist/*.wasm; wasm32-wasi-ghc tiny-brot.hs -o dist/tiny-brot.wasm"
+  },
+  "dependencies": {
+    "@bjorn3/browser_wasi_shim": "^0.2.3",
+    "xterm": "^5.1.0"
+  }
+}

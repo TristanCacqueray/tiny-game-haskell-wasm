@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/release-22.11";
-    ghc-wasm-meta.url = "git+https://gitlab.haskell.org/ghc/ghc-wasm-meta";
+    ghc-wasm-meta.url = "gitlab:ghc/ghc-wasm-meta/be8febd209eb428ff7ad36ffc55cb69d64d6fcf8?host=gitlab.haskell.org";
   };
   outputs = { self, nixpkgs, ghc-wasm-meta }:
     let

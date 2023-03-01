@@ -72,7 +72,25 @@
     "root": {
       "inputs": {
         "ghc-wasm-meta": "ghc-wasm-meta",
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_2",
+        "tiny-games-hs": "tiny-games-hs"
+      }
+    },
+    "tiny-games-hs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1677646676,
+        "narHash": "sha256-sqsnMlpH6sOrSnqKgwBFcWTF+7M6vRKYr4SbSNqPd14=",
+        "owner": "haskell-game",
+        "repo": "tiny-games-hs",
+        "rev": "9dcd6f220d265966bf1f1ca259b5aa956a4cc8a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "haskell-game",
+        "repo": "tiny-games-hs",
+        "rev": "9dcd6f220d265966bf1f1ca259b5aa956a4cc8a6",
+        "type": "github"
       }
     }
   },
